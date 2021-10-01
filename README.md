@@ -19,6 +19,17 @@ git clone https://github.com/rsampaio/rocs.git && cd rocs
 cargo install
 ```
 
+### Using binary
+
+1. Download `rocs` from latest [release](./releases/latest)
+
+### Docker
+
+```SHELL
+docker pull ghcr.io/mlesaout/rocs:latest
+docker run -it ghcr.io/mlesaout/rocs:latest rocs -h
+```
+
 ## Usage
 
 ```SHELL
